@@ -1,28 +1,65 @@
 aid: saas
+
 name: SaaS Industries
+
+image: https://apilayer.com/wp-content/uploads/2026/03/logo.png
+
 description: 'SaaS Industries provides a platform that enables businesses to integrate, manage, and monetize their software-as-a-service offerings through a unified API ecosystem. The company offers tools for subscription billing, usage tracking, customer onboarding, and analytics, helping SaaS providers streamline operations and accelerate growth. With a focus on scalability and security, SaaS Industries supports a wide range of integrations and developer-friendly documentation, empowering partners to build robust solutions on top of its services.'
+
 url: https://raw.githubusercontent.com/api-evangelist/saas/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - SaaS
 - Platform
 - API
 - Integration
 - Billing
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/saas-hosts.yml
+- type: Vendors
+  url: vendors/saas-vendors.yml
 - type: DomainSecurity
   url: security/saas-domain-security.yml
 - type: Website
   url: https://saas.industries/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://saas.industries/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

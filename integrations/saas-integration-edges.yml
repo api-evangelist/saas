@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/saas/integrations
+- https://zapier.com/apps/saas-industries/integrations
+- https://n8n.io/integrations/saas/
+- https://composio.dev/toolkits/saas
+- https://monid.ai/tools/saas
+checked:
+- https://composio.dev/toolkits/saas
+- https://monid.ai/tools/saas
+- https://n8n.io/integrations/saas/
+- https://zapier.com/apps/saas-industries/integrations
+- https://zapier.com/apps/saas/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
