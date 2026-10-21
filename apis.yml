@@ -1,7 +1,6 @@
 aid: saas
 name: SaaS Industries
-description: 'SaaS Industries is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'SaaS Industries provides a platform that enables businesses to integrate, manage, and monetize their software-as-a-service offerings through a unified API ecosystem. The company offers tools for subscription billing, usage tracking, customer onboarding, and analytics, helping SaaS providers streamline operations and accelerate growth. With a focus on scalability and security, SaaS Industries supports a wide range of integrations and developer-friendly documentation, empowering partners to build robust solutions on top of its services.'
 url: https://raw.githubusercontent.com/api-evangelist/saas/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:g2-catalog
@@ -11,7 +10,11 @@ specificationVersion: '0.20'
 created: '2026-10-21'
 modified: '2026-10-21'
 tags:
-- Company
+- SaaS
+- Platform
+- API
+- Integration
+- Billing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/saas-domain-security.yml
 - type: Website
   url: https://saas.industries/
